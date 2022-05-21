@@ -35,23 +35,24 @@
 
 
      <span class ="radio_fields"> 
-    <span class ="gender">  Gender:    </span>
-   
+    <span class ="gender" style="font-weight: bolder;">  Gender:    </span>
+
+    <label for="female" >Female  </label>
     <input type="radio" id="female" name="gender" value="female">
-    <label for="female">Female  </label>
   
-    <input type="radio" id="male" name="gender" value="male">
     <label for="male"> Male </label>
- 
-    <input type="radio" id="other" name="gender" value="other">
+    <input type="radio" id="male" name="gender" value="male">
+   
     <label for="other">Other</label>
+    <input type="radio" id="other" name="gender" value="other">
+   
  
      </span>
     <div  class="">
         
 
- <select class="list" name="state" id="state" onchange="getDropListData()" >
-    <option>State</option>
+  <select class="list" name="state" id="state" onchange="getDropListData()" >
+  <option  >State </option>
   <option value="jordan">Jordan</option>
   <option value="saudi">Saudi Arabia</option>
   <option value="turkey">Turkey</option>
@@ -62,7 +63,7 @@
         
 
     <select class="list" name="city" id="city"  >
-       <option>State</option>
+       <option>City</option>
   
     
    </select>
@@ -71,13 +72,13 @@
 
    <input class ="inputs"  type="text" id="pinCode" name="pincode" placeholder=" Pincode "><br>
    <input class ="inputs"  type="text" id="course" name="course" placeholder=" Course "><br>
-   <input class ="inputs"  type="email" id="adress" name="email" placeholder="Email"><br>
+   <input class ="inputs"  type="email" id="adress" name="email" placeholder="Email ID"><br>
 
 
    <div class="inputbox">
-  <button type = "reset" id="reset"> Resrt all </button>
+  <button type = "reset" id="reset" style="color: grey "> RESET ALL </button>
   
-    <button type = "submit" id="submit" > Submit Form  </button> 
+    <button type = "submit" id="submit" > SUBMIT FORM  </button> 
  
 
 

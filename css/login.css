@@ -5,18 +5,20 @@ body{
 
 h2{
     padding-top: 5%;
+    margin-left: 3%;
 }
 
 
 
 .main_dev{
     background-color: white;
-    height: 100%;
-    margin-left: 30%;
-    margin-right: 30%;
-    margin-top: 10%;
+   
+    margin-left: 45%;
+    margin-right: 10%;
     padding: 10px;
     border-radius: 5%;
+    margin-top: -25%;
+ 
   
   
   
@@ -27,10 +29,10 @@ input[type=text] , input[type=email]{
     border: 2px solid #DADDEC;
     padding-top: 3%;
     padding-bottom: 1.5%;
-    margin: 5px 0 10px;
+    margin: 3% 3% 3% 3%;
     font-size: 1rem;
     color: #656880;
-    border-radius: 5%;
+    border-radius: 2%;
     width: 85%;
    
   
@@ -39,12 +41,19 @@ input[type=text] , input[type=email]{
   button {
     background-color: #FFBD33;
     color: white;
-    padding: 2% 4% 2% 4%;
+    padding: 3% 5% 3% 5%;
     border-radius: 4px;
     border: None;
     cursor: pointer;
     margin-top: 3%;
     margin-bottom: 6%;
+    margin-left: 30%;
+    font-weight: bold;
+
    
   }
   
+  img{
+
+    margin-top: 3%;
+  }

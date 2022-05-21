@@ -8,13 +8,12 @@ let cites = {
 }
 
 
-document.getElementById("submit").onclick = function () {
-    location.href = "www.google.com";
-};
 
+
+// Drop lists function 
 
 function getDropListData() {
-    alert("Hello")
+    // alert("Hello")
     let selectedValue = document.getElementById('state').value;
     // console.log(selectedValue);
     if (selectedValue == "jordan") {
@@ -43,9 +42,8 @@ function getDropListData() {
 
 
 
-
-
-
+//----------------------------------------------------------------------------------------------------
+//handle the data from registration form 
 
 let subbutton = document.getElementById('formFill');
 subbutton.addEventListener('submit', handleSubmit);
@@ -60,6 +58,7 @@ function handleSubmit(event) {
         course: event.target.course.value,
         email: event.target.email.value
     }
+ // Save the object into Local storage 
   localStorage.setItem("DataObj", JSON.stringify(DataObj));
 
 

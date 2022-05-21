@@ -4,6 +4,8 @@ let newObject = window.localStorage.getItem("DataObj");
 let Object = JSON.parse(newObject);
 console.log(Object)
 
+
+
 // let form = document.getElementById('login_form');
 
 
@@ -13,7 +15,8 @@ console.log(Object)
 //  let emailF= document.getElementById("email")
 //  emailF.value=Object.email
 
-
+//-------------------------------------------------------------------------------------------------
+// check the login 
 let subbutton = document.getElementById('login_form');
 subbutton.addEventListener('submit', handleSubmit);
 function handleSubmit(event) {
@@ -23,7 +26,7 @@ function handleSubmit(event) {
     console.log(userName)
 
     if (Object.firstName == userName && Object.email==email ){
-        alert("Logins was successful")
+        alert("Login is successful")
     }
 
         
